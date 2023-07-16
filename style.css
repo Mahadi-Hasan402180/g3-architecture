@@ -148,8 +148,20 @@ main{
 
 }
 
+/* footer section start  */
 
+.footer-content{
+    text-align: center;
+    padding-bottom: 32px;
 
+}
+
+.footer-img{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+
+}
 
 
 
@@ -166,7 +178,7 @@ main{
 
     }
 
-    nav,.teams-container,.fact-card-container{
+    nav,.teams-container,.fact-card-container,.footer-img{
         flex-direction: column;
     }
 
@@ -196,11 +208,11 @@ main{
         padding: 50px;
     }
 
-    nav,.teams-container,.fact-card-container{
+    nav,.teams-container,.fact-card-container,.footer-img{
         flex-direction: column;
     }
 
-    fact-card-container.{
+    .fact-card-container,.footer-img{
         gap: 20px;
     }
     
